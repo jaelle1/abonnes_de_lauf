@@ -1,0 +1,788 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+/*debut index.php*/
+.logo {
+  height: 200px;
+  width: 300px;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+/*partie se connecter debut*/
+.coco {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  
+}
+.ins {
+  background-color: rgb(21, 210, 8);
+  border-radius: 50px;
+  height: 40px;
+  width: 150px;
+ margin-top: 4rem;
+  padding: 5px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.con{
+  background-color: #081ae4;
+  border-radius: 50px;
+  height: 40px;
+  width: 150px;
+  margin-top: 4rem;
+  font-size: 20px;
+  padding: 5px;
+}
+/*partie se connecter fin*/
+h3 a {
+  text-decoration: none;
+  color: white;
+}
+h3 a:hover{
+  color: white;
+}
+
+/*footer*/
+.footer {
+  background-color: #750202;
+  margin-top: 9rem;
+}
+.footer h1 {
+  color: white !important;
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+}
+.row .ww {
+  display: flex;
+  color: white;
+  font-weight: bold;
+}
+
+.p1 {
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+.p2 {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  float: right;
+} 
+
+/*fin index.php*/
+/*debut formulaire et username*/
+
+h1 {
+  margin-top: 50px !important;
+  font-size: 40px !important;
+  color: rgb(75, 2, 143) !important;
+}
+
+
+.logo1 {
+  height: 100px;
+  width: 350px;
+  float: left;
+}
+.logo1 img {
+  height: 100%;
+  width: 100%;
+}
+form {
+  margin-top: 1rem;
+}
+form label {
+  font-size: 25px;
+  font-weight: bold;
+}
+.bon {
+  display: flex;
+  justify-content: center;
+}
+.jour {
+  width: 800px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.jour input {
+  border-radius: 50px;
+  height: 30px;
+  width: 200px;
+  border: solid 1px;
+}
+
+ .ferm .btn1 {
+  background: blue !important;
+  color: white;
+  height: 25px;
+  width: 140px;
+  border: solid black 1px;
+  border-radius: 50px;
+  font-size: 15px;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+.bago{
+  background-color: red !important;
+  height: 20px;
+  width: 100px;
+  border: solid 1px;
+  border-radius: 50px;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+#motdepasse {
+  margin-left: 25px;
+}
+/*footer username*/
+.foot {
+  background-color: #750202;
+}
+.www {
+  margin-top: 8.4rem;
+  display: flex;
+}
+.pa {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 5px;
+  color: white;
+}
+.pa1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 50rem;
+  color: white;
+}
+/*partie enregistrer*/
+.vous {
+  margin-top: 45px;
+}
+.vous h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  font-size: 70px;
+  font-weight: bold;
+}
+div.conect {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+span.enre {
+  border: solid 1px;
+  height: 40px;
+  width: 200px;
+  background-color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  padding-top: 5px;
+}
+span.list {
+  border: solid 1px;
+  height: 40px;
+  width: 200px;
+  background-color: green;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-left: 100px;
+  padding-top: 5px;
+}
+
+span.ferm {
+  border: solid 1px;
+  border-radius: 50px;
+  height: 20px;
+  width: 100px;
+  background-color: red;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 18px;
+  padding-top: 5px;
+}
+span a {
+  text-decoration: none;
+  color: white;
+}
+.coll {
+  margin-top: 5rem;
+}
+
+/*formulaire meme*/
+.log {
+  height: 25px;
+  width: 40px;
+}
+.log img {
+  height: 100%;
+  width: 100%;
+}
+.formu {
+  background-color: rgb(220, 217, 213);
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .p2 {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .footer h1 {
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(75, 2, 143);
+  }
+  .logo1 {
+    height: 100px;
+    width: 350px;
+    float: left;
+  }
+  .logo1 img {
+    height: 100px;
+    width: 350px;
+  }
+
+  .pa {
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  .pa1 {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  form label {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .jour input {
+    border-radius: 50px;
+    height: 10px;
+    width: 100px;
+  }
+  span.btn {
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 75px;
+  }
+  span.btnn {
+    background-color: red;
+    height: 30px;
+    width: 70px;
+    border: solid 1px;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 2px;
+  }
+
+  .foot {
+    background-color: #750202;
+    margin-top: 0.6rem;
+  }
+  .vous h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  span.enre {
+    border: solid 1px;
+    height: 30px;
+    width: 120px;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    /* padding-top: 5px; */
+  }
+  span.list {
+    border: solid 1px;
+    height: 30px;
+    width: 120px;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-left: 100px;
+  }
+
+  span.ferm {
+    border: solid 1px;
+    border-radius: 50px;
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 18px;
+  }
+}
+/*style abonne*/
+
+/* entete */
+
+.tete {
+  display: flex;
+  margin-top: 10px;
+}
+.logo1 {
+  height: 110px;
+  width: 200px;
+  float: left;
+}
+.logo1 img {
+  height: 100%;
+  width: 100%;
+}
+.teta {
+  display: flex;
+  top: 10px;
+  width: 100%;
+}
+
+.texte h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: rgb(75, 2, 143);
+}
+
+/*formulaire entete*/
+.log {
+  height: 50px;
+  width: 200px;
+  text-align: center;
+}
+.log h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  color: rgb(75, 2, 143);
+}
+
+/* debut formulaire */
+.formu {
+  margin-top: 0.2rem;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  padding: 2rem;
+}
+.fofo {
+  background-color: rgb(220, 217, 213);
+  width: 500px !important;
+  border-radius: 30px !important;
+  opacity: 1 !important;
+
+  /* text-align: center; */
+  height: 350px;
+}
+.formu input {
+  width: 225px;
+  height: 30px;
+  border-bottom: solid 1px #750202;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #750202;
+}
+.format {
+  display: flex;
+  margin-top: 10px;
+}
+.format input {
+  width: 225px;
+  
+  height: 30px;
+  border-bottom: solid 1px #750202;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #750202;
+}
+.forma1 {
+  margin-top: 67.5px;
+}
+.inser {
+  margin-top: 50px;
+}
+.forma1 .coca1 {
+  width: 100px;
+  height: 100px;
+}
+.coca {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.coca .spa span {
+  margin-left: 10px;
+}
+.coca1 img {
+  width: 100%;
+  height: 100%;
+}
+.forma1 .list button {
+  width: 200px;
+  height: 40px;
+  background-color: #129dee;
+  color: white;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: bold;
+margin-left: 10px;
+  margin-top: 10px;
+}
+
+.formu button {
+  width: 100px;
+  justify-content: space-around;
+}
+
+button {
+  width: 75px;
+  /* margin-top: 2rem; */
+  text-align: center;
+  font-size: 20px;
+  border: solid 1px #750202;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  /* padding: 5px; */
+  cursor: pointer;
+}
+#valider {
+  background-color: #006af5;
+  height: 30px;
+  border-radius: 20px;
+}
+#annuler {
+  background-color: #fc0000;
+  border-radius: 20px;
+}
+#annuler:hover {
+  background-color: #ee1212;
+  border-radius: 20px;
+  transition: 0.5s;
+   scale: 1.1;
+}
+#Lister {
+  background-color: #6fc02b;
+  height: 30px;
+  border-radius: 20px;
+}
+#Lister:hover {
+  background-color: #6fc02b;
+  border-radius: 20px;
+  transition: 0.5s;
+   scale: 1.1;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* //entete for mobile  */
+  .tete {
+    margin-top: 10px;
+  }
+  .teta {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+  }
+  .logo1 {
+    height: 60px;
+    width: 100px;
+  }
+  .logo1 img {
+    height: 65px;
+    width: 200px;
+  }
+
+  .texte h1 {
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: rgb(75, 2, 143);
+  }
+
+  /*formulaire meme en entete*/
+  
+  .log img {
+    height: 50px;
+    width: 150px;
+  }
+
+  /* debut formulaire */
+  .formu {
+    margin-top: 1rem;
+    text-align: center;
+    padding: 2rem;
+  }
+  .fofo {
+    background-color: rgb(220, 217, 213);
+    width: 375px;
+    border-radius: 30px;
+    opacity: 1;
+    height: 350px;
+  }
+  .fofofo {
+    height: 40px !important;
+  }
+  .formu input {
+    width: 125px;
+    height: 20px;
+    border: solid 1px #750202;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+  }
+  button {
+    width: 75px !important;
+    text-align: center;
+    font-size: 12px !important;
+    border: solid 1px #750202;
+    border-radius: 10px;
+    background-color: #750202;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .forma1 .coca1 {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  
+}
+
+  /* footer for mobile */
+  .footer {
+    height: 75px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .foot {
+    display: flex;
+    background-color: #750202;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+  .footer {
+    height: 75px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #750202;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  .p1 {
+    position: absolute;
+  }
+}
+/*debut liste des abonnes*/
+
+
+.compteur {
+  background-color: #750202 !important;
+  color: white !important;
+  font-size: 20px !important;
+  height: 35px !important;
+  font-weight: bold !important;
+}
+
+
+
+/* table tableau*/
+.tableau {
+  width: 100%;
+  height: 480px;
+  /* display: flex; */
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.bordure {
+  border: 2px solid #750202;
+  border-radius: 10px;
+  width: 100%;
+  height: 430px;
+  overflow-y: auto;
+  overflow-x: scroll;
+}
+
+table {
+  border: #750202 solid 1px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+}
+table th {
+  border: 1px solid #750202;
+  background-color: #750202 !important;
+  padding: 10px;
+  top: 0;
+  position: sticky;
+  height: 40px !important;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  width: 200px;
+  text-align: center;
+}
+table td {
+  border: 1px solid #750202;
+  background-color: rgb(230, 230, 230) !important;
+  padding: 10px;
+  color: black;
+  height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+table .mail {
+  width: 350px;
+}
+table .compt {
+  width: 100px;
+}
+table i {
+  background-color: aqua;
+  width: 30px;
+  height: 30px;
+  border-radius: 25%;
+  padding: 5px;
+  margin-left: 10px;
+}
+.fofofo {
+  height: 40px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  /* //entete for mobile  */
+  .tete {
+    margin-top: 10px;
+  }
+  .teta {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .logo1 {
+    height: 60px;
+    width: 100px;
+  }
+
+  .logo1 img {
+    height: 65px;
+    width: 200px;
+  }
+
+  .texte h1 {
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: rgb(75, 2, 143);
+  }
+  .compteur {
+    background-color: #750202 !important;
+    color: white !important;
+    font-size: 15px !important;
+    height: 45px !important;
+    width: 100px !important;
+    float: left;
+    font-weight: bold !important;
+  }
+
+  /* footer for mobile */
+  .footer {
+    height: 75px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .foot {
+    display: flex;
+    background-color: #750202;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+  .footer {
+    height: 75px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #750202;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  .p1 {
+    position: absolute;
+  }
+}
+
